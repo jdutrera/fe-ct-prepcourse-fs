@@ -1,16 +1,13 @@
-function doWhile(num) {
-  // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
-  // Retornar el valor final.
-  // Utilizar el bucle Do-While.
+function esVerdadero(valor) {
+  // Si "valor" es verdadero retornar "Soy verdadero".
+  // Caso contrario, retornar "Soy falso".
   // Tu código:
-  var limite = 0;
-
-do {
-  
- num = num + 5;
- limite = limite + 1;
-} while (limite < 8);
-return num;
+  if (valor == 'verdadero') {
+     return 'Soy verdadero';
+   }
+   else {
+   return 'Soy falso';
+ }
 }
- console.log(doWhile(3));
+ console.log(esVerdadero('veradero'));
  
