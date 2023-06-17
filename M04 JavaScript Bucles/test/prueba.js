@@ -1,18 +1,16 @@
-function esEntero(num) {
-    // Retornar true si "num" es un entero, ya sea positivo, negativo o cero.
-    // Ejemplo: 0.8   ---> false
-    // Ejemplo: 1     ---> true
-    // Ejemplo: (-10) ---> true
-    // De lo contrario, retorna false.
-    // Tu código:
- 
-    if (Number.isInteger(num)) {
-       return true;
-     }
-     else {
-     return false;
-   }
- 
- }
- console.log(esEntero(1.2));
+function doWhile(num) {
+  // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
+  // Retornar el valor final.
+  // Utilizar el bucle Do-While.
+  // Tu código:
+  var limite = 0;
+
+do {
+  
+ num = num + 5;
+ limite = limite + 1;
+} while (limite < 8);
+return num;
+}
+ console.log(doWhile(3));
  
